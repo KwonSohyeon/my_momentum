@@ -22,7 +22,7 @@
 }
 
 #location_container {
-  width: 100px;
+  width: 50%;
   height: 100%;
   bottom: 0;
   float: right;
@@ -41,19 +41,29 @@
 }
 
 #location_icon {
-  width: 50%;
+  width: 24px;
+  height: 24px;
   border: 1px solid darkgray;
 }
 
 #location_temp {
-  width: 50%;
+  height: 24px;
   border: 1px solid darkgray;
   text-align: center;
-  font-size: 24px;
+  font-size: 21px;
 }
 
 #location_text {
   text-align: center;
+}
+
+#chrome_container {
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#chrome_content {
 }
 
 /*중앙영역*/
